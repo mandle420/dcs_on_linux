@@ -56,7 +56,18 @@ for proton use `protontricks 223750`.
 
 Start the game once first to create the prefix, then run
 ```
-<tricks command> vcrun2019 corefonts xact d3dcompiler_43
+<tricks command> d3dcompiler_43 d3dcompiler_47 d3dx10_43 d3dx11_43 vcrun2019 
+```
+If you get an error re: your windows version is too old
+```
+winecfg
+```
+select windows 10, apply and ok.
+
+dotnet48 I think is needed for vr. will check.
+
+```
+wine DCS_World_web.exe
 ```
 
 This should be all it takes to get standalone working.
