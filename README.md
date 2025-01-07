@@ -1,4 +1,4 @@
-# DCS on Linux
+notmaster# DCS on Linux
 
 DCS World can run on linux through Wine and Proton, though it does take some
 work to get running. The game has two distribution methods: standalone and
