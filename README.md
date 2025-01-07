@@ -107,9 +107,7 @@ Arial missing font which can not be distributed with Wine.
 
 ## SteamVR
 
-The game seems to work fine with steamVR. This is only possible in the steam
-version, and seems to currently only work in proton 6.3.8 (possibly in future
-proton versions, but not GE or TKG)
+The game seems to work fine with steamVR. Both the steam version and stand alone version work as of at least the latest stand alone version. Directions tbw. will check ge, experimental and 9.0-4
 
 ## Known issues and fixes
 
