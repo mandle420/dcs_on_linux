@@ -55,7 +55,7 @@ Both versions need some winetricks applied. For standalone, use `winetricks`,
 for proton use `protontricks 223750`. For standalone on proton, there's an extra step. 
 `protontricks -s dcs`
 which should output something like this
-Non-Steam shortcut: DCS_updater.exe (4149477483)
+Non-Steam shortcut: DCS Standalone (4149477483)
 `protontricks 4149477483` or whatever prefix shows up with the previous command
 
 Start the game once first to create the prefix, then run
