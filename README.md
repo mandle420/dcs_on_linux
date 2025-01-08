@@ -49,6 +49,10 @@ An easy way to get started is to use Lutris. There are [two install scripts
 for standalone](https://lutris.net/games/dcs-world/) on Lutris which may just work out of the box.
 Much of this guide has been tested to work successfully with the 'Eagle Dynamics version'.
 
+![lutris4](https://github.com/user-attachments/assets/9c1e7e53-61d9-41c2-9121-1b4877c5e312)
+![lutris3](https://github.com/user-attachments/assets/e763f430-f6b9-48ca-a424-7de4cd7eb0a8)
+![lutris2](https://github.com/user-attachments/assets/0a457a07-d8f6-4151-8cbb-108fd8824d61)
+
 ### Getting it working manually
 
 Both versions need some winetricks applied. For standalone, use `winetricks`,
