@@ -52,7 +52,7 @@ Much of this guide has been tested to work successfully with the 'Eagle Dynamics
 ### Getting it working manually
 
 Both versions need some winetricks applied. For standalone, use `winetricks`,
-for proton use `protontricks 223750`. For standalone on proton, there's an extra step. 
+for proton/steam use `protontricks 223750`. For standalone on proton, there's an extra step. 
 `protontricks -s dcs`
 which should output something like this
 Non-Steam shortcut: DCS Standalone (4149477483)
@@ -60,7 +60,7 @@ Non-Steam shortcut: DCS Standalone (4149477483)
 
 Start the game once first to create the prefix, then run
 ```
-<tricks command> d3dcompiler_43 d3dcompiler_47 d3dx10_43 d3dx11_43 vcrun2019 
+<tricks command> corefonts vcrun2017 xmllite xact_x64 d3dcompiler_47 
 ```
 If you get an error re: your windows version is too old
 ```
