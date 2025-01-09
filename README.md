@@ -114,6 +114,7 @@ flag https://wiki.winehq.org/Wine_User's_Guide#WINEDLLOVERRIDES.3DDLL_Overrides
 ```
 WINEDLLOVERRIDES='wbemprox=n;msdmo=n'
 ```
+In /DCSWorld/MissionEditor/data/scripts/ you may need to delete the options.lua file.
 
 With that change, you should be able to log in but once the game starts you
 will see a black screen. To fix this, create a symlink from
