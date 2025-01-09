@@ -64,7 +64,7 @@ Non-Steam shortcut: DCS Standalone (4149477483)
 
 Start the game once first to create the prefix, then run
 ```
-<tricks command> corefonts vcrun2017 xmllite xact_x64 d3dcompiler_47 
+<tricks command> corefonts vcrun2017 xact d3dcompiler_47 
 ```
 If you get an error re: your windows version is too old
 ```
