@@ -64,7 +64,7 @@ Non-Steam shortcut: DCS Standalone (4149477483)
 
 Start the game once first to create the prefix, then run
 ```
-<tricks command> corefonts vcrun2017 xact d3dcompiler_47 
+<tricks command> corefonts d3dx11_43 d3dx10_43 d3dcompiler_43 d3dcompiler_47 
 ```
 If you get an error re: your windows version is too old
 ```
@@ -77,8 +77,15 @@ dotnet48 I think is needed for vr. will check.
 ```
 wine DCS_World_web.exe
 ```
+```
+ln -s /location of dcs/DCSWorld/bin/webrtc_plugin.dll /location of dcs/DCSWorld/
+rm /location of dcs/DCSWorld/MissionEditor/data/scripts/options.lua
+```
 
-This should be all it takes to get standalone working.
+Once that's done, cd into the bin, or bin-mt
+```
+WINEDLLOVERRIDES='wbemprox=n;msdmo=n' wine DCS.exe```
+```
 
 #### Fixing Steam version permanent crashing
 
